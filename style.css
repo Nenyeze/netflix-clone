@@ -1,0 +1,43 @@
+.container{
+    background-color: black;
+    color: #fff;
+}
+.navbar ul{
+    list-style: none;
+    /* display: inline-block; */
+}
+.navbar ul li{
+    display: inline-flex;
+}
+.net{
+    text-align: left;
+    margin-left: -10px;
+    color: red;
+}
+.nett{
+    float: right;
+    margin-right: 25px;
+    color: red;
+}
+.nett button{
+    background-color: red;
+}
+.collapsible{
+    background-color: #303030;
+    color: #fff;
+    cursor: pointer;
+    width: 50%;
+    font-size: 15px;
+    padding: 18px;
+    /* padding-left: -200px; */
+    text-align: left;
+}
+.content{
+    overflow:hidden
+    /* transition:max-height 0.2s ease-out */
+}
+.collapsible::after{
+    content: "\02795";
+    float: right;
+    font-size: 10px;
+}
